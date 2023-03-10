@@ -17,7 +17,7 @@ custContainer(child) {
 
 custContainer2(text) {
   return Padding(
-    padding: const EdgeInsets.all(12.0),
+    padding: const EdgeInsets.all(8.0),
     child: InkWell(
       onTap: () {},
       child: Container(
@@ -27,7 +27,7 @@ custContainer2(text) {
         width: 55,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
-          color: Colors.white ,
+          color: Colors.white,
           boxShadow: [
             BoxShadow(
               color: Colors.grey.withOpacity(0.2),
